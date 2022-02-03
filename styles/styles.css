@@ -60,13 +60,16 @@
     text-decoration: none;
     text-transform: uppercase; 
   }
+  
 
-  .welcome-text {
+  .first-screen {
     color: #ffffff;
     background-color: #000000;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-image: url("images\big-photos\main-index.png");
+    background-image: url(styles\style-images\first-screen-background.jpg);
+    width: 1200px;
+    height: 485px;
   }
 
   .text-sedona-readons {
@@ -182,9 +185,11 @@
 
 *Catalog
 
-.catalog {
-    background-image: url("images\big-photos\hotel-sedona-backrground.jpg");
+.catalog-filters {
+    background-image: url("styles\style-images\hotels-background.png");
     background-color: black;
+    width: 1200px;
+    height: 408px;
 }
 
 .catalog-filter-title {
@@ -195,7 +200,7 @@
     line-height: 36px;
 }
 
-.product-card-title {
+.product-card-link {
     color: #000000;
     font-family: "PT Sans", sans-serif;
     font-size: 24px;
@@ -216,11 +221,55 @@
 }
 
 .product-card-button-detials {
-    width: 133,01px;
+    width: 133px;
     height: 37px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #756257;
     border-radius: 4px;
+    line-height: 20px;
+    font-style: normal;
+    border: 0px;
 }
+
+.product-card-button-favorite {
+  width: 133px;
+  height: 37px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  line-height: 20px;
+  font-style: normal;
+  border: 0px;
+}
+
+.button-pagination-show-more {
+  width: 619px;
+  height: 60px;
+  background-color: #83B3D3;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  border: 0px;
+}
+
+.product-card-score {
+  width: 160px;
+  height: 37px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: bottom;
+}
+
 
