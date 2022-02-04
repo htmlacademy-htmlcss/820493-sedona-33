@@ -67,7 +67,7 @@
     background-color: #000000;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-image: url(styles\style-images\first-screen-background.jpg);
+    background-image: url('../images/big-photos/first-screen-background.jpg');
     width: 1200px;
     height: 485px;
   }
@@ -159,7 +159,11 @@
  }
 
  .mailing {
-     background-image: url("images\big-photos\main-subscription-background.png");
+     background-image: url('../images/big-photos/main-subscription-background.png');
+     background-repeat: no-repeat;
+     width: 1200px;
+     height: 411px;
+     
  }
 .visually-hidden {
     display: none;
@@ -183,13 +187,16 @@
     text-transform: uppercase; 
 }
 
-*Catalog
 
 .catalog-filters {
-    background-image: url("styles\style-images\hotels-background.png");
-    background-color: black;
+    background-image: url('../images/big-photos/hotels-filter-background.jpg');
+    background-repeat: no-repeat;
     width: 1200px;
     height: 408px;
+}
+
+.catalog-filter-group {
+  border:0 none;
 }
 
 .catalog-filter-title {
