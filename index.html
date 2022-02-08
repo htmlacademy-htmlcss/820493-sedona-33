@@ -4,40 +4,42 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href=".\styles\styles.css">
+    <link rel="stylesheet" href=".\styles\out-line.css">
+    <link rel="stylesheet" href=".\styles\out-line-settings.css">
   </head>
   <body>
-   <header class="page-header">
-     <nav class="main-nav">
-       <a class="logo main-nav__logo" href="index.html">
-        <img src="images\vector-logos\sedona-logo.svg" alt="Логотип Седоны" width="138" height="70">
-       </a>
-    
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-           <a class="main-nav__link" href="#">Главная</a>
-            </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">О Седоне</a>
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="logo main-nav__logo" href="index.html">
+         <img src="images\vector-logos\sedona-logo.svg" alt="Логотип Седоны" >
+        </a>
+     
+         <ul class="main-nav__list">
+           <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Главная</a>
+             </li>
+           <li class="main-nav__item">
+             <a class="main-nav__link" href="#">О Седоне</a>
+           </li>
+           <li class="main-nav__item">
+             <a class="main-nav__link" href="#">Гостиницы</a>
+           </li>
+         </ul>
+         <ul class="user-menu">
+          <li class="user-menu-item">
+            <a class="main-nav__link" href="#"><img src="images\vector-logos\search.svg"></a> 
           </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Гостиницы</a>
-          </li>
-        </ul>
-        <ul class="user-menu">
-         <li class="search">
-           <a class="main-nav__link" href="#">Поиск</a> 
-         </li>
-          <li class="favorite">
-           <a class="main-nav__link" href="#">Избранное</a> 
-          </li>
-          <li class="button">
-           <a class="main-nav__link" href="#">хочу сюда</a> 
-          </li>
-        </ul>
-     </nav>
-    </header>
+           <li class="user-menu-item">
+            <a class="main-nav__link" href="#"><img src="images\vector-logos\favorite.svg"></a> 
+           </li>
+           <li class="user-menu-item">
+            <button class="main-nav__link want-here-button" href="#">Xочу сюда</button> 
+           </li>
+         </ul>
+      </nav>
+     </header>
 
-  <main class="main-index">
+  <main class="main-container main-index">
     <h1 class="visually-hidden">SEDONA</h1>
     <div class="first-screen">
       <h2 class="visually-hidden">First-big-screen</h2>
@@ -128,7 +130,7 @@
           <label for="newsletter-email" class="visually-hidden">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
           <button class="newsletter-button" type="submit">Подписаться</button>
-         <!-- <img src="images\background-photos\mail-subscription-background.png" alt="mailing-background" width="1200" height="411"> -->
+          <!--<img src="images\background-photos\mail-subscription-background.png" alt="mailing-background" width="1200" height="411">-->
         </form>
       </section>
     </section>
