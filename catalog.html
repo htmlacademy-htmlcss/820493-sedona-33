@@ -9,7 +9,7 @@
     <header class="page-header">
       <nav class="main-nav">
         <a class="logo main-nav__logo" href="index.html">
-         <img src="images\vector-logos\sedona-logo.svg" alt="Логотип Седоны" width="138" height="70">
+         <img src="images\vector-logos\sedona-logo.svg" alt="Логотип Седоны" >
         </a>
      
          <ul class="main-nav__list">
@@ -24,22 +24,25 @@
            </li>
          </ul>
          <ul class="user-menu">
-          <li class="search">
-            <a class="main-nav__link" href="#">Поиск</a> 
+          <li class="user-menu-item">
+            <a class="main-nav__link" href="#"><img src="images\vector-logos\search.svg"></a> 
           </li>
-           <li class="favorite">
-            <a class="main-nav__link" href="#">Избранное</a> 
+           <li class="user-menu-item">
+            <a class="main-nav__link" href="#"><img src="images\vector-logos\favorite.svg"></a> 
            </li>
-           <li class="button">
-            <button class="product-card-button-detials" href="#">хочу сюда</button> 
+           <li class="user-menu-item">
+            <button class="main-nav__link want-here-button" href="#">Xочу сюда</button> 
            </li>
          </ul>
       </nav>
      </header>
 
-  <main class="main-inner-catalog">
+  <main class="main-inner-catalog main-container">
+    <div class="page-container">
     <div class="catalog-filters">
+      <div class="inner-header-title-container"></div>
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
+      </div>
         <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link"><img src="images\vector-logos\home-page-icon.svg" alt="home-icon"></a>
@@ -110,6 +113,9 @@
         </section>
       </div>
           <div class="sorting">
+          <div class="sorting-result">
+            <p class="sorting-result-text">Найдено гостиниц: 38</p>
+          </div>
           <select class="select-control" aria-label="Сортировка">
             <option value="popular">Сначала популярное</option>
             <option value="cheap">Сначала дешёвое</option>
@@ -173,7 +179,9 @@
             </li>
           </ul>
         </div>
+        <div class="show-more-button-container">
           <button class="button-pagination-show-more" type="button">Загрузить ещё</button>
+        </div>
           <div class="pagination">
           <ul class="pagination-list">
             <li class="pagination-item">
@@ -199,11 +207,11 @@
             <option value="12">12</option>
           </select>
         </div>
-          <section class="mailing">
+          <section class="mailing-catalog">
             <h2 class="visually-hidden">Mailing subscribtion</h2> 
             <section class="newsletter">
-              <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-              <p class="news-letter-text">Только полезная информация и никакого спама,честное бойскаутское!</p>
+              <h2 class="page-footer-title-catalog">Подпишитесь на рассылку</h2>
+              <p class="news-letter-text-catalog">Только полезная информация и никакого спама,честное бойскаутское!</p>
               <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
                 <label for="newsletter-email" class="visually-hidden">Email</label>
                 <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
@@ -212,10 +220,11 @@
               </form>
             </section>
           </section>
+    </div>
   </main>
 
   <footer class="page-footer">
-    <div class="page-footer__column">
+    <div class="page-footer-container">
      <ul class="footer-social-list">
        <li class="footer-social-item">
          <a class="button" href="#">
@@ -243,6 +252,8 @@
      <div class="academy-logo>">
        <a href="#"><img src="images\vector-logos\html-logo.svg" alt="academy-logo"></a>
      </div>
+    </div>
+    <div class="page-footer__column">
    </footer>
 
   <script src="js/index.min.js"></script>
