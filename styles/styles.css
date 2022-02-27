@@ -515,18 +515,19 @@ display: flex;
 }
 
 .product-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 58px;
+  padding-left: 0px;
+  grid-row-gap: 50px;
   width: 1056px;
-  height: 1040px;
 }
 
 .product-card {
-  display: flex;
- width: 340px;
- height: 438px;
- list-style-type: none;
- flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .product-card-type {
@@ -615,9 +616,9 @@ display: flex;
 }
 
 .product-card-link {
-  font-style: normal;
+  grid-column: 1 / -1;
+  width: 100%;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .catalog {
@@ -626,9 +627,10 @@ display: flex;
 }
 
 .cost {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  padding-top: 5px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
 }
 
 .cost-text {
@@ -636,25 +638,50 @@ display: flex;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 34px;
 }
+
+.cost-table {
+  height: 48px;
+  width: 287px;
+}
+
+
 
 .range {
   color:#ffffff;
+  height: 4px;
 }
 
 .catalog-filter-title {
-    font-family: "PT Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color:#ffffff;
-    line-height: 36px;
+  padding-left: 71px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 36px;
+}
+
+.catalog-filter-item {
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .catalog-filter {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  justify-content: space-between;
+}
+
+.catalog-filter-list {
+  padding-left: 72px;
+  list-style-type: none;
+  gap: 16px;
+  display: grid;
 }
 
 .range {
@@ -662,7 +689,8 @@ display: flex;
 }
 
 .filter-buttons {
-  display: flex;
+  display: grid;
+  padding-top: 25px;
   flex-direction: column;
   margin-left: 81px;
   margin-right: 72px;
@@ -698,6 +726,10 @@ display: flex;
     font-style: normal;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.product-card-image {
+  width: 100%;
 }
 
 .product-card-price {
@@ -737,6 +769,16 @@ display: flex;
   line-height: 20px;
   font-style: normal;
   border: 0px;
+}
+
+.product-card-button-favorite-one {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-card-score-one {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .product-card-button-favorite-added {
