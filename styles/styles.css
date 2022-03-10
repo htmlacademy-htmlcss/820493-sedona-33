@@ -556,6 +556,7 @@ display: flex;
 .catalog-filter-group {
   display: inline-block;
   border:0 none;
+  padding-left: 0px;
 }
 
 .inner-header-title-container {
@@ -568,7 +569,7 @@ display: flex;
 }
 
 .inner-header-title {
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   font-size: 50px;
   font-weight: 700;
@@ -609,10 +610,18 @@ display: flex;
 
 .breadcrumbs {
   margin-left: 73px;
+  padding-left: 0px;
 }
 
 .breadcrumbs-item {
   display: inline-block;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .product-card-link {
@@ -679,7 +688,8 @@ display: flex;
 }
 
 .catalog-filter-list {
-  padding-left: 72px;
+  padding-left: 0px;
+  margin-left: 72px;
   list-style-type: none;
   gap: 16px;
   display: grid;
