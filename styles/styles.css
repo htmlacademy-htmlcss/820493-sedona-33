@@ -160,10 +160,11 @@
     background-repeat: no-repeat;
     background-image: url('../images/big-photos/first-screen-background.jpg');
     width: 1200px;
-    height: 767px;
+    height: 485px;
   }
 
   .divider {
+    margin-top: 21px;
     width: 1200px;
     height: 57px;
   }
@@ -595,11 +596,27 @@ display: flex;
 }
 
 .button-sorting {
-  margin-right: 8px;
+  position: relative;
+  width: 16px;
+  height: auto;
+  object-fit: contain;
+  top: 2px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 4px;
+  border-radius: 4px;
 }
 
 .button-sorting-light {
-  margin-right: 8px;
+  position: relative;
+  width: 16px;
+  height: auto;
+  object-fit: contain;
+  top: 2px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 4px;
+  border-radius: 4px;
 }
 
 .select-control-fisrt {
@@ -657,6 +674,19 @@ display: flex;
   width: 287px;
   background-image: url('images\vector-logos\Rectangle 33.svg');
 }
+
+.input-table {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  color: #fff;
+  display: inline-block;
+  width: 35%;
+}
+
+ .input-table:outline {
+background-color: #756257;
+ }
 
 
 
