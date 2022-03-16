@@ -985,3 +985,135 @@ height: 23px;
 .field {
   background-color: #F2F2F2;
 }
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.hotel-search {
+  width: 715px;
+  height: 561px;
+  border-radius: 30px;
+}
+
+.modal-close-button {
+  margin-top: 54px;
+  margin-right: 70px;
+  border-radius: 50%;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 56px;
+  height: 44px;
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+} 
+
+.modal-title {
+  margin-left: 68px;
+  padding-top: 62px ;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  width: 499px;
+  height: 67px;
+}
+
+.auth-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.auth-form-field-second {
+  width: 133px;
+  height: 52px;
+  border-radius: 4px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.auth-form-field {
+  padding-left: 0px;
+  border-radius: 4px;
+  width: 420px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 18;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-style: normal;
+}
+
+.modal-search {
+  width: 575px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #82B3D3;
+  color: #fff;
+  margin-top: 40px;
+  border-style: none;
+}
+
+.modal-form {
+  text-align: left;
+  display: flex;
+  height: 50px;
+  margin-left: 70px;
+}
+
+.madal-data {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-style: normal;
+  width: 155px;
+  height: 50px;
+}
+
+.modal-form-type2 {
+  margin-left: 225px;
+  
+}
+
+.madal-data-type2 {
+  margin-right: 53px;
+  margin-left: 69px;
+  width: 54px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-style: normal;
+    width: 34px;
+    height: 50px;
+}
+
+.modal-search-button {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
