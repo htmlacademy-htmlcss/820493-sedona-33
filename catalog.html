@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href=".\styles\styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
   </head>
   <body>
     <header class="page-header">
       <nav class="main-nav">
         <a class="logo main-nav__logo" href="index.html">
-         <img src="images\vector-logos\sedona-logo.svg" alt="Логотип Седоны" >
+         <img src="images/vector-logos/sedona-logo.svg" alt="Логотип Седоны" >
         </a>
      
          <ul class="main-nav__list">
@@ -24,14 +24,14 @@
            </li>
          </ul>
          <ul class="user-menu">
-          <li class="user-menu-item">
-            <a class="main-nav__link" href="#"><img src="images\vector-logos\search.svg"></a> 
+          <li class="user-menu-item-1">
+            <a class="main-nav__link-2" href="#"><img src="images/vector-logos/search.svg" alt="search"></a> 
           </li>
-           <li class="user-menu-item">
-            <a class="main-nav__link" href="#"><img src="images\vector-logos\favorite.svg"></a> 
+           <li class="user-menu-item-2">
+            <a class="main-nav__link-2" href="#"><img src="images/vector-logos/favorite.svg" alt="favorite"></a> 
            </li>
            <li class="user-menu-item">
-            <button class="main-nav__link want-here-button" href="#">Xочу сюда</button> 
+            <button class="main-nav__link want-here-button">Xочу сюда</button> 
            </li>
          </ul>
       </nav>
@@ -45,10 +45,10 @@
       </div>
         <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link"><img src="images\vector-logos\home-page-icon.svg" alt="home-icon"></a>
+              <a class="breadcrumbs-link"><img src="images/vector-logos/home-page-icon.svg" alt="home-icon"></a>
             </li>
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link"><img src="images\vector-logos\breadcrumps arrow.svg" alt="breadcrumps-arrow"></a>
+              <a class="breadcrumbs-link"><img src="images/vector-logos/breadcrumps-arrow.svg" alt="breadcrumps-arrow"></a>
             </li>
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html">Гостиницы</a>
@@ -85,8 +85,8 @@
             </fieldset>
 
             <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Тип жилья:</legend>
-                <ul class="catalog-filter-list">
+                <legend class="catalog-filter-title-2">Тип жилья:</legend>
+                <ul class="catalog-filter-list-2">
                     <li class="catalog-filter-item">
                         <label class="control">
                             <input class="control-input" type="radio" name="hotel" checked>
@@ -115,7 +115,10 @@
               <div class="cost-table">
                 <input type="text" class="input-table" value="" placeholder="от"><input type="text" class="input-table" value="9000" placeholder="до">
               </div>
-              <input class="range" type="range" min="0" max="9000" step="1" value="7000"> 
+              <div class="range-line">
+                <div class="line-white"></div>
+              </div>
+              <!-- <input class="range" type="range" min="0" max="9000" step="1" value="7000"> -->
             </div>
             <div class="filter-buttons">
             <button class="button-set" type="submit">Применить</button>
@@ -135,15 +138,15 @@
             <option value="expensive">Сначала дорогое</option>
           </select>
           <a href="#" class="button-sorting-light">
-            <img src="images\vector-logos\mode-tile 1.svg">
+            <img src="images/vector-logos/mode-tile-1.svg" alt="mode-titel-logo">
             <span class="visually-hidden">Показать список</span>
           </a>
           <a class="button-sorting" href="#">
-            <img src="images\vector-logos\mode-slideshow 2.svg">
+            <img src="images/vector-logos/mode-slideshow-2.svg" alt="mode-slideshow">
             <span class="visually-hidden">Показать карточки</span>
           </a>
           <a class="button-sorting" href="#">
-            <img src="images\vector-logos\mode-list 3.svg">
+            <img src="images/vector-logos/mode-list-3.svg" alt="mode-list">
             <span class="visually-hidden">Показать сетку</span>
           </a>
           </div>
@@ -151,69 +154,69 @@
           <ul class="product-list">
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img class="product-card-image" src="images\hotels\Amara Resort & Spa.png" alt="amara-hotel">
+                <img class="product-card-image" src="images/hotels/Amara-Resort-&-Spa.png" alt="amara-hotel">
                 <h3 class="product-card-title">Amara Resort & Spa</h3>
               </a>
               <p class="product-card-type">Гостиница </p>
               <p class="product-card-price">От 4000 ₽</p>
-              <button class="product-card-button-detials" href="#">Подробнее</button>
-              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite" href="#">В избранное</button></div>
+              <button class="product-card-button-detials">Подробнее</button>
+              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite">В избранное</button></div>
               <div class="stars-score">
-              <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-              <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-              <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-              <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
+              <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+              <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+              <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+              <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
                </div>
                <div class="product-card-score-one"><button class="product-card-score">Рейтинг: 8,5</button></div>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img class="product-card-image" src="images\hotels\Desert Quail Inn.png" alt="desert-hotel">
+                <img class="product-card-image" src="images/hotels/Desert-Quail-Inn.png" alt="desert-hotel">
                 <h3 class="product-card-title">Desert Quail Inn</h3>
               </a>
               <p class="product-card-type">Гостиница </p>
               <p class="product-card-price">От 3000 ₽</p>
-              <button class="product-card-button-detials" href="#">Подробнее</button>
-              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite" href="#">В избранное</button></div>
+              <button class="product-card-button-detials">Подробнее</button>
+              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite" >В избранное</button></div>
               <div class="stars-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
                  </div>
                  <div class="product-card-score-one"><button class="product-card-score">Рейтинг: 8,9</button></div>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img class="product-card-image" src="images\hotels\Villas at Poco Diablo.png" alt="diablo-hotel">
+                <img class="product-card-image" src="images/hotels/Villas-at-Poco-Diablo.png" alt="diablo-hotel">
                 <h3 class="product-card-title">Villas at Poco Diablo</h3>
               </a>
               <p class="product-card-type">Гостиница </p>
               <p class="product-card-price">От 2000 ₽</p>
-              <button class="product-card-button-detials" href="#">Подробнее</button>
-              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite-added" href="#">В избранном</button></div>
+              <button class="product-card-button-detials">Подробнее</button>
+              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite-added">В избранном</button></div>
               <div class="stars-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
                  </div>
                  <div class="product-card-score-one"><button class="product-card-score">Рейтинг: 9,2</button></div>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img class="product-card-image" src="images\hotels\GreenTree Inn.png" alt="green-inn-hotel">
+                <img class="product-card-image" src="images/hotels/Gree-Tree-Inn.png" alt="green-inn-hotel">
                 <h3 class="product-card-title">GreenTree Inn</h3>
               </a>
               <p class="product-card-type">Гостиница </p>
               <p class="product-card-price">От 3000 ₽</p>
-              <button class="product-card-button-detials" href="#">Подробнее</button>
-              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite" href="#">В избранное</button></div>
+              <button class="product-card-button-detials">Подробнее</button>
+              <div class="product-card-button-favorite-one"><button class="product-card-button-favorite">В избранное</button></div>
               <div class="stars-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
-                <img class="stars" src="images\vector-logos\star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
+                <img class="stars" src="images/vector-logos/star.svg" alt="star-score">
                  </div>
                  <div class="product-card-score-one"><button class="product-card-score">Рейтинг: 9,2</button></div>
             </li>
@@ -254,7 +257,7 @@
             <h2 class="visually-hidden">Mailing subscribtion</h2> 
             <section class="newsletter">
               <h2 class="page-footer-title-catalog">Подпишитесь на рассылку</h2>
-              <p class="news-letter-text-catalog">Только полезная информация и никакого спама,честное бойскаутское!</p>
+              <p class="news-letter-text-catalog">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
               <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
                 <label for="newsletter-email" class="visually-hidden">Email</label>
                 <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
@@ -263,7 +266,6 @@
               </form>
             </section>
           </section>
-    </div>
   </main>
 
   <footer class="page-footer">
@@ -272,31 +274,29 @@
        <li class="footer-social-item">
          <a class="button" href="#">
            <span class="visually-hidden">Твиттер</span>
-           <img src="images\vector-logos\twitter.svg" alt="twitter-logo">
+           <img src="images/vector-logos/twitter.svg" alt="twitter-logo">
          </a>
        </li>
        <li class="footer-social-item">
          <a class="button" href="#">
            <span class="visually-hidden">Facebook</span>
-           <img src="images\vector-logos\facebook.svg" alt="facebook-logo">
+           <img src="images/vector-logos/facebook.svg" alt="facebook-logo">
          </a>
        </li>
        <li class="footer-social-item">
          <a class="button" href="#">
            <span class="visually-hidden">Youtube</span>
-           <img src="images\vector-logos\youtube.svg" alt="youtube-logo">
+           <img src="images/vector-logos/youtube.svg" alt="youtube-logo">
          </a>
        </li>
      </ul>
      </div>
      <div class="footer-phone">
-       <a  class="footer-phone-item" href="tel:+7 (812) 812-12-12">+7 (812) 812-12-12</a>
+       <a  class="footer-phone-item">+7 (812) 812-12-12</a>
      </div>
-     <div class="academy-logo>">
-       <a href="#"><img src="images\vector-logos\html-logo.svg" alt="academy-logo"></a>
+     <div class="academy-logo">
+       <a href="#"><img src="images/vector-logos/html-logo.svg" alt="academy-logo"></a>
      </div>
-    </div>
-    <div class="page-footer__column">
    </footer>
 
   <script src="js/index.min.js"></script>
