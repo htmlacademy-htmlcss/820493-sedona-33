@@ -189,28 +189,39 @@
                     <label class="visually-hidden" for="auth-login">27 апреля 2020</label>
                     <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="27 апреля 2020">
                   </div>
-                  <div class="modal-form-type2">
-                      <p class="modal-form-subtitle">Мы не можем отправить вас в прошлое.</p>
+                  <div class="modal-form-subtitle">
+                      <p>Мы не можем отправить вас в прошлое.</p>
                   </div>
                   <div class="modal-form">
-                      <p class="madal-data">Дата выезда:</p>
-                    <label class="visually-hidden" for="auth-password">1 сентября 2020</label>
-                    <input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="1 сентября 2021">
-                  </div>
-                  <div class="modal-form-type2">
-                      <p class="modal-form-subtitle">На эти даты есть свободные номера. Пока есть.</p>
-                  </div>
+                    <p class="madal-data">Дата выезда:</p>
+                      <label class="visually-hidden" for="auth-login">1 сентября 2021</label>
+                      <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="1 сентября 2021">
+                    </div>
+                    <div class="modal-form-subtitle">
+                        <p>На эти даты есть свободные номера. Пока есть.</p>
+                    </div>
                   <div class="modal-form">
                       <p class="madal-data">Взрослые:</p>
-                    <input class="auth-form-field-second field"  placeholder="-  2  +">
-                      <p class="madal-data-type2">Дети:</p>
-                    <input class="auth-form-field-second field"  placeholder="-  1  +">
+                      <div class="number-intut">
+                        <!--<input class="auth-form-field-second field">-->
+                        <button class="minus-button">-</button>
+                        <p class="value">2</p>
+                        <button class="plus-button">+</button>
+                  </div>
+                      <p class="madal-data">Дети:</p>
+                      <div class="number-intut">
+                        <div class="number-intut">
+                          <!--<input class="auth-form-field-second field">-->
+                          <button class="minus-button">-</button>
+                          <p class="value">2</p>
+                          <button class="plus-button">+</button>
+                  </div>
                   </div>
                 </form>
-                <div class="modal-search-button">
-                <button class="modal-search">Найти</button>
-                </div>
             </section>
+            <div class="modal-search-button">
+              <button class="modal-search">НАЙТИ</button>
+              </div>
       </div>
   </div>
   </body>
