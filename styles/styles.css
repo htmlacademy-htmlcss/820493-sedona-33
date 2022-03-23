@@ -562,7 +562,7 @@ height: 40px;
 }
 
 .academy-logo {display: flex;width: 115px;height: 34px;padding-left: 54px;padding-bottom: -2px;}
-.footer-phone-item {display: flex;align-items: center;justify-content: center;font-style: normal;font-size: 40px;width: 720px;/* height: 40px; */font-family: "PT Sans", sans-serif;line-height: 40px;/* font-weight: 700; *//* text-align: center; *//* color: #000000; *//* background-color: #ffffff; *//* text-decoration: none; *//* text-transform: uppercase; *//* vertical-align: middle; */}
+.footer-phone-item {display: flex;align-items: center;justify-content: center;font-style: normal;font-size: 40px;width: 720px;/* height: 40px; */font-family: "PT Sans", sans-serif, sans-serif;line-height: 40px;/* font-weight: 700; *//* text-align: center; *//* color: #000000; *//* background-color: #ffffff; *//* text-decoration: none; *//* text-transform: uppercase; *//* vertical-align: middle; */}
 
 
 .sorting {
@@ -581,7 +581,7 @@ height: 40px;
 .product-card {/* padding-right: -19px; */margin-left: 11px;margin-top: -12px;grid-template-columns: 1fr 1fr;display: grid;list-style-type: none;flex-wrap: wrap;padding-left: -21px;}
 
 .product-card-type {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -647,7 +647,7 @@ margin: auto;
 
 .select-control-fisrt {
   margin-left: 7px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -701,7 +701,7 @@ margin-bottom: -15px;
 .cost-table {height: 76px;width: 287px;background-image: url('images\vector-logos\Rectangle 33.svg');}
 
 .input-table {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -765,7 +765,7 @@ background-color: #756257;
   margin-left: 13px;
 }
 
-.catalog-filter-title {font-family: "PT Sans", sans-serif;font-size: 20px;font-weight: 700;color: #ffffff;line-height: 26px;padding: 0;}
+.catalog-filter-title {font-family: "PT Sans", sans-serif, sans-serif;font-size: 20px;font-weight: 700;color: #ffffff;line-height: 26px;padding: 0;}
 
 
 .catalog-filter-title-2 {
@@ -854,7 +854,7 @@ color: #ffffff;
 }
 
 .product-card-button-detials {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -921,7 +921,7 @@ border: 0px;
 
 .button-pagination-show-more {text-transform: uppercase;font-family: PT Sans;font-size: 20px;font-style: normal;font-weight: 700;line-height: 26px;letter-spacing: 0em;text-align: center;/* margin-right: 20px; */display: flex;width: 619px;height: 60px;background-color: #83B3D3;border-radius: 4px;color: #ffffff;font-family: "PT Sans", sans-serif;font-style: normal;font-size: 20px;font-weight: 700;line-height: 25px;text-align: center;border: 0px;flex-wrap: nowrap;align-items: center;justify-content: center;}
 
-.product-card-score {margin-top: 16px;width: 160px;height: 37px;border: 0px;border-radius: 4px;background-color: #F2F2F2;font-size: 16px;font-family: "PT Sans", sans-serif;font-weight: 400;line-height: 20px;text-align: center;text-transform: uppercase;}
+.product-card-score {margin-top: 16px;width: 160px;height: 37px;border: 0px;border-radius: 4px;background-color: #F2F2F2;font-size: 16px;font-family: "PT Sans", sans-serif, sans-serif;font-weight: 400;line-height: 20px;text-align: center;text-transform: uppercase;}
 
 .pagination {margin-top: -38px;/* height: 55px; *//* width: 1056px; */display: flex;flex-direction: row;align-items: center;margin-left: 63px;margin-right: 72px;justify-content: space-between;}
 
