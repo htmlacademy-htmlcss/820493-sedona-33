@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/pt-sans-regular.woff2") format("woff2");
@@ -372,13 +372,17 @@ flex-direction: row-reverse;
 }
 
 .approximate-data {
+  font-family: PT Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
   font-family: "PT Sans", sans-serif;
-  font-size: 22px;
   font-weight: 400;
   color: #000000;
-  /* line-height: 26px; */
   width: 720px;
-  /* height: 52px; */
   padding-left: 240px;
   padding-right: 240px;
   padding-bottom: 54px;
@@ -1176,13 +1180,14 @@ border-style: none;
   margin-left: 64px;
   margin-top: 0px;
   flex-wrap: wrap;
-  margin-bottom: -15px;
+  margin-bottom: 16px;
   align-content: center;
   flex-direction: row;
 }
 
 .modal-form-subtitle {
-  margin-left: 226px;
+  height: 29px;
+  margin-left: 159px;
   display: flex;
 }
 
@@ -1216,9 +1221,14 @@ border-style: none;
 
 
 .modal-search-button {
+  height: 60px;
   margin-right: 94px;
   margin-left: 69px;
-  margin-top: 0px;
+  margin-top: -21px;
+}
+
+.subtitle-text {
+  margin:  0;
 }
 
 input[type=range] {
