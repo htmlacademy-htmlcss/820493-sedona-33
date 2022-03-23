@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/pt-sans-regular.woff2") format("woff2");
@@ -878,7 +878,7 @@ color: #ffffff;
 .product-card-button-favorite {
   margin-right: 1px;
   margin-top: -2px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -942,10 +942,10 @@ justify-content: center;
 border-radius: 4px;
 }
 
-.pagination-link {text-transform: uppercase;text-decoration: none;font-family: "PT Sans";font-size: 20px;font-style: normal;font-weight: 700;line-height: 26px;letter-spacing: 0em;text-align: center;color: #ffffff;}
+.pagination-link {text-transform: uppercase;text-decoration: none;font-family: "PT Sans", sans-serif;font-size: 20px;font-style: normal;font-weight: 700;line-height: 26px;letter-spacing: 0em;text-align: center;color: #ffffff;}
 
 .hotel-number-on-page {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -960,7 +960,7 @@ border-radius: 4px;
 }
 
 .select-control {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1100,7 +1100,7 @@ font-style: normal;
 }
 
 .modal-search {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -1152,7 +1152,7 @@ border-style: none;
   display: inline-block;
   text-align: center;
   background-color: rgba(242, 242, 242, 1);
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
