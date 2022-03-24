@@ -20,6 +20,13 @@ html {
 }
 
 body {
+  position: absolute;
+  border-left-width: 40px;
+  border-left-style: solid;
+  border-left-color: #E5E5E5;
+  border-right-width: 40px;
+  border-right-style: solid;
+  border-right-color: #E5E5E5;
   width: 1200px;
   min-height: 100%;
   flex-direction: column;
@@ -754,7 +761,7 @@ margin-bottom: -15px;
   padding-bottom: 36px;
 }
 
-.cost-table {height: 76px;width: 287px;background-image: url('images\vector-logos\Rectangle 33.svg');}
+.cost-table {height: 76px;width: 295px;background-image: url('images\vector-logos\Rectangle 33.svg');}
 
 .input-table {
   font-family: "PT Sans", sans-serif;
@@ -767,7 +774,7 @@ margin-bottom: -15px;
   height: 6px;
   background-color: transparent;
   border: 1px solid #ffffff;
-  padding: 20px;
+  padding: 19px;
   color: #fff;
   display: inline-block;
   width: 35%;
@@ -854,7 +861,7 @@ background-color: #756257;
 
 .range {width: 288px;}
 
-.filter-buttons {display: grid;padding-top: 28px;flex-direction: column;padding-right: 89px;margin-left: 19px;}
+.filter-buttons {display: grid;padding-top: 27px;flex-direction: column;padding-right: 89px;margin-left: 12px;}
 
 .button-set {
   margin-left: 0px;
@@ -1074,8 +1081,8 @@ color: #000000;
 
 
 .modal-container {
-    left: 0;
-  position:fixed;
+  left: 0;
+  position: absolute;
   top: 0;
   display: flex;
   width: 100%;
@@ -1084,10 +1091,10 @@ color: #000000;
   }
   
   .modal-hotel-search {
-    margin-left: auto;
-    margin-right: auto ;
-    margin-top: 20px;
-    position: relative;
+    margin-left: 243px;
+    margin-right: 285px;
+    margin-top: 393px;
+    position: absolute;
     background-color: #ffffff;
     padding-left: 0;
     padding-right: 0;
