@@ -214,7 +214,7 @@ letter-spacing: 0em;
 text-align: center;
   margin-bottom: 64px;
   margin-top: 1px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 36px
 }
@@ -347,13 +347,13 @@ flex-direction: row-reverse;
 
 .advantage-text-third {
   width: 250px;
-  height: 42px;
-   font-family: "PT Sans", sans-serif;
-   font-size: 18px;
-   line-height: 21px;
-   font-weight: 400;
-   color: #000000;
-   margin-left: 75px;
+  height: 25px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  margin-left: 75px;
 }
 
 .interest {
@@ -1059,7 +1059,18 @@ text-align: center;
 color: #000000;
 }
 
-.news-letter-text-catalog {margin-top: 49px;margin-bottom: 16px;font-family: "PT Sans";font-size: 22px;font-weight: 400;color: #000000;line-height: 26px;width: 720px;height: 52px;text-align: center;}
+.news-letter-text-catalog {
+  margin-top: 49px;
+  margin-bottom: 16px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 26px;
+  width: 720px;
+  height: 52px;
+  text-align: center;
+}
 
 
 .modal-container {
