@@ -2016,11 +2016,13 @@ padding-left: 23px;
   position: absolute;
 }
 
-
-
 .madal-data_helper:hover {
   color: #AF7842;
 }
+
+.modal-container, .modal-hotel-search {
+  display: none;
+  }
 
 input[type=range] {
   -webkit-appearance: none;
